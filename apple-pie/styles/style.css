@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +29,70 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding-bottom: 70px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-color: #cccccc;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-background {
+  width: 100%;
+}
+
+.header-text {
+  font-size: 80px;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+  padding-top: 350px;
+}
+
+h2 {
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.images {
+  padding-left: 30%;
+  size: 10px;
+  padding-top: 60px;
+}
+hr {
+  width: 80%;
+  display: block;
+  border-style: inset;
+
+  color: black;
+}
+
+p {
+  padding-top: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-size: 25px;
+  margin: 50px;
+}
+ul {
+  list-style-type: none;
+  margin-left: 50px;
+  font-size: medium;
+}
+ol {
+  margin-left: 50px;
+  font-size: medium;
+}
+.ingredients {
+  margin-left: 40px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
